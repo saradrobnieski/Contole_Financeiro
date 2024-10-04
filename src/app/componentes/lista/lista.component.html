@@ -1,0 +1,22 @@
+<table class="table table-success table-striped-columns">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Entrada e Saída</th>
+      <th scope="col">Categoria</th>
+      <th scope="col">Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (value of lista; track value.id){
+      <tr>
+        <th scope="row">{{value.id}}</th>
+        <td>{{value.descricao}}</td>
+        <td>{{value.entradaesaida}}</td>
+        <td>{{value.categoria}}</td>
+        <td>{{value.valor}}</td>
+      </tr>
+  }
+  </tbody>
+</table>

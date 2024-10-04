@@ -1,0 +1,13 @@
+.container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-select {
+  background-color: #e6fffa;
+}
+
+.form-control {
+  background-color: #e6fffa;
+}
